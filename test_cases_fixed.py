@@ -29,4 +29,5 @@ class TestCalc (unittest.TestCase):
                 self.assertEqual (998001, calc(999,999))
 
         def test_sample8 (self):
-                self.assertEqual (-1, calc(,5))
+                self.assertEqual (-1, calc(0.1,999))
+
